@@ -1,0 +1,9 @@
+{
+  "manifest_version": 2,
+  "name": "BirdPage",
+  "version": "1.0.1",
+  "chrome_url_overrides": {
+    "newtab": "homepage.html"
+  },
+  "browser_specific_settings": {"gecko": {"id": "@bird-page","data_collection_permissions":{"required":["none"]}}}
+}
